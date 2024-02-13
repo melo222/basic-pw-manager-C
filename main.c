@@ -7,7 +7,7 @@
 
 void getPassword(char *inputBuffer, int bufferLength){ 
     //questa funzione prende in input la password ed evita overflows (se inserisco una password con len maggiore
-	// di bufferLenght allora la password viene tagliata fino alla bufferLength lettera
+	// di bufferLenght allora la password viene tagliata fino alla bufferLength-esima lettera
 	int ch;
 	while ((getchar()) != '\n'); //per pulire il buffer da qualsiasi cosa ci sia
 	printf("\nInserisci password: ");
